@@ -1,15 +1,18 @@
 {
     "name": "lyjs-node",
     "description": "lyjs libraries for Node",
-    "version": "0.1.1",
+    "version": "0.1.3",
     "author": "Gian Angelo Geminiani <angelo.geminiani@gmail.com>",
+    "keywords": [
+        "lyjs",
+        "utils",
+        "utility"
+    ],
 
     "repository": {
-        "type" : "git",
+        "type": "git",
         "url": "git://github.com/angelogeminiani/lyjs-node.git"
     },
-
-    "os": [ "linux", "darwin", "freebsd", "win32", "smartos", "sunos" ],
 
     "devDependencies": {
         "mocha": "*"
@@ -23,14 +26,16 @@
         "lib": "./lib/"
     },
 
-    "main": "./lib/fs",
+    "main": "./index",
 
     "engines": {
         "node": ">=0.1.97"
     },
 
-    "licenses": [{
-        "type" : "MIT",
-        "url" : "https://github.com/angelogeminiani/lyjs-node/blob/master/LICENSE"
-    }]
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/angelogeminiani/lyjs-node/blob/master/LICENSE"
+        }
+    ]
 }
