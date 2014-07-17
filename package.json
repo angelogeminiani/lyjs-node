@@ -1,7 +1,7 @@
 {
     "name": "lyjs-node",
     "description": "lyjs libraries for Node",
-    "version": "0.1.15",
+    "version": "0.1.16",
     "author": "Gian Angelo Geminiani <angelo.geminiani@gmail.com>",
     "keywords": [
         "lyjs",
